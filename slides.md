@@ -5,7 +5,6 @@ info: |
   ## Workshop hosted by G:URL*s Coding Club Vienna
 # apply unocss classes to the current slide
 class: text-center
-# https://sli.dev/features/drawing
 drawings:
   persist: false
 # slide transition: https://sli.dev/guide/animations.html#slide-transitions
