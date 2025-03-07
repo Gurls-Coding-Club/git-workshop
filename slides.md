@@ -33,6 +33,19 @@ image: ./assets/profile-picture.jpg
 - 🧗 Bouldering & Eating & Running
 
 ---
+hideInToc: true
+---
+
+# What is git?
+
+Version Control System
+
+<!--
+give general introduction to git based on an example
+add picture showcasing file changes without version control
+-->
+
+---
 layoutClass: gap-16
 hideInToc: true
 ---
@@ -40,22 +53,6 @@ hideInToc: true
 # Table of contents
 
 <Toc text-sm minDepth="1" maxDepth="1" />
-
----
-
-# What is git?
-
-Version Control System
-
-## What is it used for?
-
-- Tracking changes in files over time
-- Versioning
-- Collaboration
-
-<!--
-add picture showcasing file changes without version control
--->
 
 ---
 transition: slide-up
@@ -90,8 +87,6 @@ $ git <verb> --help
 ```
 
 ---
-hideInToc: true
----
 
 # Initialize a repository
 
@@ -123,7 +118,6 @@ TODO: Add gif
 
 ---
 layout: two-cols
-hideInToc: true
 ---
 
 # Recoding Changes
@@ -360,6 +354,7 @@ hideInToc: true
 
 - [GitKraken](https://www.gitkraken.com/) - Git GUI Client
 - [GitHub Desktop](https://desktop.github.com/) - Simplified Git GUI
+
 - [GitLens for VS Code](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ---
