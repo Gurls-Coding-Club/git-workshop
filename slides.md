@@ -22,7 +22,7 @@ Hosted by G:URL\*s Coding Club
 transition: fade-out
 hideInToc: true
 layout: image-left
-image: /assets/profile-picture.jpg
+image: /profile-picture.jpg
 ---
 
 # Who am I?
