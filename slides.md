@@ -97,6 +97,14 @@ $ git <verb> --help
 $ git init
 ```
 
+<br/>
+
+<v-click>
+
+## Do you see any changes?
+
+</v-click>
+
 <!--
 What does git init do? 
 - Creates a hidden .git directory with a lot of metadata including
@@ -114,20 +122,38 @@ layout: two-cols
 
 # Recoding Changes
 
+<!-- add image of the flow -->
+
 ::right::
+<v-click>
 
 ## 1. Untracked
 
+</v-click>
+
+<br/>
+
+<v-click>
+
 ## 2. Tracked
 
-### 2.1 Modified
+</v-click>
+
+<br/>
+
+<v-click>
+
+### Modified
 
 ```bash
 $ git status  # Check what files changed
-$ git diff    # See detailed changes
 ```
 
-### 2.1 Staged
+</v-click>
+
+<v-click>
+
+### Staged
 
 ```bash
 $ git add <file>  # Stage specific file
@@ -135,7 +161,11 @@ $ git add .       # Stage all changes
 $ git status      # Check staged files
 ```
 
-### 3. Committed
+</v-click>
+
+<v-click>
+
+### Committed
 
 ```bash
 $ git commit -m "descriptive message"
@@ -146,24 +176,89 @@ $ git log         # View commit history
 examples of good git messages and why
 -->
 
+</v-click>
+
+<v-click>
+
+### Unmodified
+
+</v-click>
+
+---
+layout: two-cols
 ---
 
 # Git vs Github?
 
+## Git
+
+- Version control system
+- Command-line tool
+- free and open-source
+
+::right::
+
+## GitHub
+
+- Host for git repositories
+- Additional collaboration features:
+  - Pull Requests
+  - Issues
+  - Actions
+  - Discussions
+  - Forks
+- Extensive free plan
+
 <!--
-list difference
-demo creating a repo
+Note: Other Git hosting platforms exist:
+- GitLab
+- Bitbucket
+- Azure DevOps
 -->
 
+---
+layout: two-cols
 ---
 
 # Publishing your code
 
-1. Create a GitHub account
-2. Create a repository
+## Create a GitHub account
+
+1. Open https://github.com
+2. Click `Sign Up` in the right top corner
+3. Fill in the required information
+
+## Create a repository
+
+1. Navigate to your profile
+2. Click on `Repositories`
+3. Click on `New`
+4. Define the repository name and make the repository `public`
+5. Click `Create repository`
+
+::right::
+
+## Push your work to GitHub
+
+```shell
+# Add the remote repository origin
+$ git remote add origin https://github.com/<OWNER>/<REPOSITORY_NAME>.git
+
+# Rename the default branch to main
+$ git branch -M main  # -M flag forces the rename even if destination exists
+
+# Push the changes to the remote repository
+$ git push -u origin main
+
+```
 
 <!--
-git push
+Note: 
+- Historically, Git used 'master' as the default branch name
+- GitHub and other platforms now use 'main' as the default
+- The -M flag is a combination of:
+  - -m: move/rename a branch
+  - -M: move/rename even if target exists
 -->
 
 ---
@@ -209,6 +304,16 @@ $ git clone https://github.com/YOUR-USERNAME/REPO-NAME
 # Add original repository as upstream
 $ git remote add upstream https://github.com/ORIGINAL-OWNER/REPO-NAME
 ```
+
+---
+layout: cover
+---
+
+# INTERACTIVE DEMO
+
+---
+src: ./pages/CHANGE-ME.md
+---
 
 ---
 layout: two-cols
