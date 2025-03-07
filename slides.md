@@ -22,6 +22,7 @@ Hosted by G:URL\*s Coding Club
 transition: fade-out
 hideInToc: true
 layout: image-left
+image: ./assets/profile-picture.jpg
 ---
 
 # Who am I?
@@ -29,7 +30,7 @@ layout: image-left
 - 👩‍💻 Fullstack Software Engineer @ Elevantiq
 - 🛠️ Javascript/Typescript
 - 💜 Org. member @ G:URL\*s Coding Club since June 2024
-- 🧗 Bouldering & Running
+- 🧗 Bouldering & Eating & Running
 
 ---
 layoutClass: gap-16
@@ -44,12 +45,13 @@ hideInToc: true
 
 # What is git?
 
-Version Control
+Version Control System
 
 ## What is it used for?
 
+- Tracking changes in files over time
+- Versioning
 - Collaboration
-- Open source
 
 <!--
 add picture showcasing file changes without version control
@@ -57,6 +59,7 @@ add picture showcasing file changes without version control
 
 ---
 transition: slide-up
+hideInToc: true
 ---
 
 # Installation and setup
@@ -86,6 +89,8 @@ $ git help <verb>
 $ git <verb> --help
 ```
 
+---
+hideInToc: true
 ---
 
 # Initialize a repository
@@ -118,6 +123,7 @@ TODO: Add gif
 
 ---
 layout: two-cols
+hideInToc: true
 ---
 
 # Recoding Changes
@@ -262,6 +268,8 @@ Note:
 -->
 
 ---
+hideInToc: true
+---
 
 # Branching
 
@@ -270,6 +278,8 @@ add image explain why this is done create a PR
 examples: Different branches are used for different versions of the documentation (e.g., v1.0, v2.0).
 -->
 
+---
+hideInToc: true
 ---
 
 # Merging
@@ -307,16 +317,19 @@ $ git remote add upstream https://github.com/ORIGINAL-OWNER/REPO-NAME
 
 ---
 layout: cover
+hideInToc: true
 ---
 
 # INTERACTIVE DEMO
 
 ---
+hideInToc: true
 src: ./pages/CHANGE-ME.md
 ---
 
 ---
 layout: two-cols
+hideInToc: true
 ---
 
 # What's next?
