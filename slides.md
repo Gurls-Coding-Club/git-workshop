@@ -180,14 +180,35 @@ examples: Different branches are used for different versions of the documentatio
 # Merging
 
 ---
+layout: two-cols
+---
 
 # Sharing your code with others
 
-<!--
-git clone
-git fork
-why ? open source contribution
--->
+## `git clone`
+
+- Download a copy of the repo
+- Points to the original repository
+- Direct team collaboration (write access)
+
+```shell
+# Clone a repository
+$ git clone https://github.com/ORIGINAL-OWNER/REPO-NAME
+```
+
+::right::
+
+## Fork (GitHub feature)
+
+- Download a copy of the repo under your account
+- Open source contribution (without write access)
+
+```shell
+# After forking on GitHub, clone your fork
+$ git clone https://github.com/YOUR-USERNAME/REPO-NAME
+# Add original repository as upstream
+$ git remote add upstream https://github.com/ORIGINAL-OWNER/REPO-NAME
+```
 
 ---
 layout: two-cols
