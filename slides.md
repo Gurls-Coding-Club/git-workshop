@@ -21,9 +21,15 @@ Hosted by G:URL\*s Coding Club
 ---
 transition: fade-out
 hideInToc: true
+layout: image-left
 ---
 
 # Who am I?
+
+- 👩‍💻 Fullstack Software Engineer @ Elevantiq
+- 🛠️ Javascript/Typescript
+- 💜 Org. member @ G:URL\*s Coding Club since June 2024
+- 🧗 Bouldering & Running
 
 ---
 layoutClass: gap-16
@@ -35,13 +41,34 @@ hideInToc: true
 <Toc text-sm minDepth="1" maxDepth="1" />
 
 ---
+
+# What is git?
+
+Version Control
+
+## What is it used for?
+
+- Collaboration
+- Open source
+
+<!--
+add picture showcasing file changes without version control
+-->
+
+---
 transition: slide-up
 ---
 
-# Git installation and setup
+# Installation and setup
 
-- [Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-- Configuring git
+1. [Installation Guide](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+
+```bash
+# Checking git version
+$ git -v
+```
+
+2. Configuration
 
 ```bash
 # Setting up the identity is necessary as it is used within each commit
@@ -52,54 +79,88 @@ $ git config --global user.email johndoe@example.com
 $ git config --list
 ```
 
----
-level: 2
----
+3. Help command
 
-# Help
-
-```
+```bash
 $ git help <verb>
 $ git <verb> --help
 ```
 
 ---
 
-# Initialize git
+# Initialize a repository
 
 1. Create a project folder
-2. Run git init
+2. Initialize a git repository
+
+```bash
+$ git init
+```
+
+<!--
+What does git init do? 
+- Creates a hidden .git directory with a lot of metadata including
+HEAD
+config
+refs (branches, tags etc)
+- It makes the repository ready so changes can be tracked
+
+TODO: Add gif
+-->
+
+---
+layout: two-cols
+---
+
+# Recoding Changes
+
+::right::
+
+## 1. Untracked
+
+## 2. Tracked
+
+### 2.1 Modified
+
+```bash
+$ git status  # Check what files changed
+$ git diff    # See detailed changes
+```
+
+### 2.1 Staged
+
+```bash
+$ git add <file>  # Stage specific file
+$ git add .       # Stage all changes
+$ git status      # Check staged files
+```
+
+### 3. Committed
+
+```bash
+$ git commit -m "descriptive message"
+$ git log         # View commit history
+```
+
+<!--
+examples of good git messages and why
+-->
 
 ---
 
-# Staging
+# Git vs Github?
 
-```
-git status
-git add .
-git status
-```
-
----
-
-# Commits
-
-```
-git commit -m `initial commit`
-
-```
-
----
-class: px-20
----
-
-# Github
-
-1. Create a GitHub account
+<!--
+list difference
+demo creating a repo
+-->
 
 ---
 
 # Publishing your code
+
+1. Create a GitHub account
+2. Create a repository
 
 <!--
 git push
@@ -111,6 +172,7 @@ git push
 
 <!--
 add image explain why this is done create a PR
+examples: Different branches are used for different versions of the documentation (e.g., v1.0, v2.0).
 -->
 
 ---
@@ -119,8 +181,52 @@ add image explain why this is done create a PR
 
 ---
 
-# Tools & Extensions
+# Sharing your code with others
 
+<!--
+git clone
+git fork
+why ? open source contribution
+-->
+
+---
+layout: two-cols
 ---
 
 # What's next?
+
+## Official Documentation
+
+- [Pro Git Book](https://git-scm.com/book/en/v2)
+- [Git Documentation](https://git-scm.com/doc)
+
+<br/>
+
+## Interactive Learning
+
+- [GitHub Skills](https://skills.github.com/)
+- [Oh My Git!](https://ohmygit.org/) - An open-source game for learning Git
+- [Learn Git Branching](https://learngitbranching.js.org/) - Interactive Git visualization tool
+
+<br/>
+
+## Video Courses
+
+- [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk) - freeCodeCamp
+- [GitHub Training & Guides](https://www.youtube.com/githubguides)
+
+::right::
+
+## Tools
+
+- [GitKraken](https://www.gitkraken.com/) - Git GUI Client
+- [GitHub Desktop](https://desktop.github.com/) - Simplified Git GUI
+- [GitLens for VS Code](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+---
+layout: cover
+---
+
+# Q&A
+
+## Thank you for your attention
