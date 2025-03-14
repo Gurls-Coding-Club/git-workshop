@@ -1,6 +1,6 @@
 ---
 theme: dracula
-title: Git Workshop
+title: Git Started – An Introduction to Git
 info: |
   ## Workshop hosted by G:URL*s Coding Club Vienna
 # apply unocss classes to the current slide
@@ -14,7 +14,7 @@ mdc: true
 hideInToc: true
 ---
 
-# Git Workshop
+# Git Started – An Introduction to Git
 
 Hosted by G:URL\*s Coding Club
 
