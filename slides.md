@@ -14,7 +14,7 @@ mdc: true
 hideInToc: true
 ---
 
-# Git Started – An Introduction to Git
+# An Introduction to Git
 
 Hosted by G:URL\*s Coding Club
 
@@ -54,8 +54,6 @@ hideInToc: true
   <li v-click>Wanted to share your code, or let other people work on your code?</li>
   <li v-click>Made a change to code, realized it was a mistake and wanted to revert back?</li>
   <li v-click>Lost code or had a backup that was too old?</li>
-  <li v-click>Had to maintain multiple versions of a product?</li>
-  <li v-click>Wanted to see the difference between two (or more) versions of your code?</li>
   <li v-click>Wanted to prove that a particular change broke or fixed a piece of code?</li>
 </ol>
 
