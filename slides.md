@@ -153,7 +153,7 @@ $ touch README.md # creates a new file
 layout: two-cols
 ---
 
-# Recoding Changes
+# Recording Changes
 
 <v-click>
 
@@ -168,7 +168,7 @@ Changes git knows about
 ### Modified
 
 ```bash
-$ git status  # Check what files changed
+$ git status  # Check which files changed
 ```
 
 </v-click>
