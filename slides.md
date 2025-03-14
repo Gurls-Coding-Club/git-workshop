@@ -59,10 +59,6 @@ hideInToc: true
   <li v-click>Wanted to prove that a particular change broke or fixed a piece of code?</li>
 </ol>
 
-<!--
-TODO: explain how git stores changes
--->
-
 ---
 layoutClass: gap-16
 hideInToc: true
@@ -220,7 +216,7 @@ examples of good git messages and why
 ## 2. Untracked
 
 - ignored files within .gitignore
-- new files that have not been there in the previous snapshot
+- new files that have not been there in the previous changes
 
 </v-click>
 
