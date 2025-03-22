@@ -123,10 +123,11 @@ $ git init # creates a .git folder
 
 ## Do you see any changes?
 
+<!--
 1. Navigate to the project folder
 2. Run `ls -a` to see hidden files
 
-<!--
+
 What does git init do?
 - Creates a hidden .git directory with a lot of metadata including
 HEAD
@@ -139,6 +140,15 @@ TODO: Add gif
 </v-click>
 
 <br/>
+
+<v-click>
+
+<img src="/gitinit.gif" alt=""/>
+
+</v-click>
+
+::right::
+
 <v-click>
 
 ## Let's create our first file
@@ -194,10 +204,6 @@ $ git commit -m "descriptive message"
 $ git log         # View commit history
 ```
 
-<!--
-examples of good git messages and why
--->
-
 </v-click>
 
 <v-click>
@@ -208,7 +214,7 @@ examples of good git messages and why
 
 ::right::
 
-<!-- add image of the flow -->
+<!-- TODO: add image of the flow -->
 <v-click>
 
 ## 2. Untracked
@@ -347,6 +353,8 @@ $ git merge feature-branch
 There are times where its easy to merge branches, and there are times where it can be a bit tricky because conflicts can arise.
 Conflicts occur when two branches have changed the same part of the same file, and Git doesn't know which version to use.
 add image and mention that this might be for another more deep dive session
+
+TODO: add image showcasing a simple merge branch
 -->
 
 ---
@@ -467,3 +475,7 @@ layout: cover
 # Q&A
 
 ## Thank you for your attention
+
+<!--
+TODO: for each section add a real world scenario from work
+-->
