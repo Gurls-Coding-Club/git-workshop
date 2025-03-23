@@ -134,8 +134,6 @@ HEAD
 config
 refs (branches, tags etc)
 - It makes the repository ready so changes can be tracked
-
-TODO: Add gif
 -->
 </v-click>
 
@@ -301,9 +299,12 @@ Note:
 
 ---
 hideInToc: true
+layout: two-cols
 ---
 
 # Branching
+
+<section v-click="3">
 
 - Branches are used to develop features isolated from each other
 - Use cases:
@@ -318,13 +319,22 @@ $ git checkout -b feature-branch
 $ git push origin feature-branch
 ```
 
+</section>
+::right::
+
+<div  class="p-6 pt-12 flex flex-col gap-6">
+
+<img v-click="1" src="/main-branch.svg" alt=""/>
+<img v-click="2" src="/feature-branch.svg" alt=""/>
+</div>
+
 <!--
-TODO: add image showcasing branching
 examples: Different branches are used for different versions of the documentation (e.g., v1.0, v2.0).
 -->
 
 ---
 hideInToc: true
+layout: two-cols
 ---
 
 # Merging
@@ -346,15 +356,18 @@ $ git merge feature-branch
 ```
 
 - GitHub
+
   - Create a pull request
   - Merge the pull request
+
+::right::
+
+  <img src="/merge-branch.svg" alt=""/>
 
 <!--
 There are times where its easy to merge branches, and there are times where it can be a bit tricky because conflicts can arise.
 Conflicts occur when two branches have changed the same part of the same file, and Git doesn't know which version to use.
 add image and mention that this might be for another more deep dive session
-
-TODO: add image showcasing a simple merge branch
 -->
 
 ---
