@@ -411,6 +411,13 @@ $ git remote add upstream https://github.com/ORIGINAL-OWNER/REPO-NAME
 ```
 
 ---
+layout: cover
+hideInToc: true
+---
+
+# OPEN SOURCE
+
+---
 hideInToc: true
 layout: two-cols
 ---
@@ -457,6 +464,8 @@ src: ./pages/CHANGE-ME.md
 --
 hideInToc: true
 
+---
+hideInToc: true
 ---
 
 # Summary Cheatsheet
