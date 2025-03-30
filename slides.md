@@ -251,7 +251,6 @@ layout: two-cols
 Note: Other Git hosting platforms exist:
 - GitLab
 - Bitbucket
-- Azure DevOps
 -->
 
 ---
@@ -288,6 +287,14 @@ $ git branch -M main  # -M flag forces the rename even if destination exists
 # Push the changes to the remote repository
 $ git push -u origin main
 
+```
+
+<br/>
+
+## Fetching changes
+
+```shell
+$ git pull # Pull the changes from the remote repository
 ```
 
 <!--
