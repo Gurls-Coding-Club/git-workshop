@@ -91,12 +91,14 @@ $ git config --global user.email johndoe@example.com
 $ git config --list
 ```
 
+<!--
 3. Help command
 
 ```bash
 $ git help <verb>
 $ git <verb> --help
 ```
+-->
 
 ---
 layout: two-cols
@@ -337,7 +339,7 @@ hideInToc: true
 layout: two-cols
 ---
 
-# Merging
+# Merging (basics)
 
 - Combining changes from different branches
 - Merge Conflicts
@@ -445,6 +447,42 @@ hideInToc: true
 src: ./pages/CHANGE-ME.md
 ---
 
+--
+hideInToc: true
+
+---
+
+# Summary Cheatsheet
+
+- `git init` - Initialize a new repository
+- `git clone <repo>` - Clone a repository
+- `git status` - Check the status of the repository
+- `git add <file>` - Stage a file
+- `git commit -m "<message>"` - Commit changes
+- `git push` - Push changes to the remote repository
+- `git pull` - Pull changes from the remote repository
+- `git checkout <branch>` - Switch to a branch
+- `git checkout -b <branch>` - Create a new branch
+- `git merge <branch>` - Merge a branch into the current branch
+
+---
+
+# Tools
+
+## IDE
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens) - Git extension for VS Code
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+
+<br/>
+
+## Git GUI
+
+- [GitHub Desktop](https://desktop.github.com/)
+- [GitKraken](https://www.gitkraken.com/)
+- [GitButler](https://gitbutler.com/)
+
 ---
 layout: two-cols
 hideInToc: true
@@ -491,4 +529,11 @@ layout: cover
 
 <!--
 TODO: for each section add a real world scenario from work
+-->
+
+<!--
+Look into resources: 
+
+https://github.com/git-guides/git-add
+https://github.blog/developer-skills/github/write-better-commits-build-better-projects/
 -->
