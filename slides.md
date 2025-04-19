@@ -584,21 +584,13 @@ hideInToc: true
 - [Oh My Git!](https://ohmygit.org/) - An open-source game for learning Git
 - [Learn Git Branching](https://learngitbranching.js.org/) - Interactive Git visualization tool
 
-<br/>
+::right::
 
 ## Video Courses
 
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk) - freeCodeCamp
 - [GitHub Training & Guides](https://www.youtube.com/githubguides)
 
-::right::
-
-## Tools
-
-- [GitKraken](https://www.gitkraken.com/) - Git GUI Client
-- [GitHub Desktop](https://desktop.github.com/) - Simplified Git GUI
-
-- [GitLens for VS Code](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
 ---
 hideInToc: true
