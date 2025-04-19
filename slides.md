@@ -233,6 +233,25 @@ $ git log         # View commit history
 
 </v-click>
 
+<!--
+# .gitignore examples: 
+- .env (secrets, local configs)
+
+# Tracked & Unstaged:
+- You started working on a feature
+- You are trying to find an error by using console logs
+
+
+# Staging
+- You might have fixed and issue and adopted documentation 
+- staged files = ready to be committed
+
+
+
+# Commit
+- added to the git history
+- adds all staged files
+-->
 
 ---
 layout: two-cols
@@ -420,12 +439,26 @@ $ git clone https://github.com/YOUR-USERNAME/REPO-NAME
 $ git remote add upstream https://github.com/ORIGINAL-OWNER/REPO-NAME
 ```
 
+<!--
+## Clone
+- makes a copy to your machine
+
+
+## Forking
+- makes a copy of the project to you github account (not local)
+- when missing permissions
+-->
+
 ---
 layout: cover
 hideInToc: true
 ---
 
 # OPEN SOURCE
+
+> Open source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit.
+
+
 
 ---
 hideInToc: true
@@ -488,6 +521,30 @@ hideInToc: true
 - `git checkout <branch>` - Switch to a branch
 - `git checkout -b <branch>` - Create a new branch
 - `git merge <branch>` - Merge a branch into the current branch
+
+---
+
+# Setting Up Git for Success: A Developer’s Checklist
+
+
+✅ Using `.gitignore`
+
+✅ Write descriptive commit messages
+
+✅ Use feature branches
+
+✅ Integrations/Tools
+
+<!--
+# .gitignore
+sensitive data
+
+# feature branches
+conflicts
+
+# integrations/tools
+make your life easier
+-->
 
 ---
 
