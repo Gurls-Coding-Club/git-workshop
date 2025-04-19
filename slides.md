@@ -19,6 +19,16 @@ hideInToc: true
 Hosted by G:URL\*s Coding Club
 
 ---
+layout: cover
+hideInToc: true
+---
+
+<section class="flex items-center flex-1 h-auto justify-center">
+<img class="h-72 w-72" src="/slides.svg"/>
+</section>
+
+
+---
 transition: fade-out
 hideInToc: true
 layout: image-left
@@ -167,7 +177,18 @@ layout: two-cols
 
 <v-click>
 
-## 1. Tracked
+## 1. Untracked
+
+- Ignored files within .gitignore
+- New files that have not been there in the previous changes
+
+</v-click>
+
+::right::
+
+<v-click>
+
+## 2. Tracked
 
 Changes git knows about
 
@@ -212,17 +233,6 @@ $ git log         # View commit history
 
 </v-click>
 
-::right::
-
-<!-- TODO: add image of the flow -->
-<v-click>
-
-## 2. Untracked
-
-- ignored files within .gitignore
-- new files that have not been there in the previous changes
-
-</v-click>
 
 ---
 layout: two-cols
@@ -317,9 +327,9 @@ layout: two-cols
 
 - Branches are used to develop features isolated from each other
 - Use cases:
-  - different versions of documentation (e.g., v1.0, v2.0)
-  - different environments (e.g., development, production)
-  - different features (e.g., login, registration)
+  - Different versions of documentation (e.g., v1.0, v2.0)
+  - Different environments (e.g., development, production)
+  - Different features (e.g., login, registration)
 
 ```shell
 # Create a new branch
@@ -461,8 +471,6 @@ hideInToc: true
 src: ./pages/CHANGE-ME.md
 ---
 
---
-hideInToc: true
 
 ---
 hideInToc: true
@@ -534,6 +542,17 @@ hideInToc: true
 - [GitHub Desktop](https://desktop.github.com/) - Simplified Git GUI
 
 - [GitLens for VS Code](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+
+---
+hideInToc: true
+---
+
+# Feedback
+
+<section class="flex items-center mt-12 flex-1 h-auto justify-center">
+<img class="h-72 w-72" src="/feedback.svg"/>
+
+</section>
 
 ---
 layout: cover
