@@ -471,6 +471,7 @@ hideInToc: true
 
 ---
 layout: two-cols
+hideInToc: true
 ---
 
 # INTERACTIVE DEMO
