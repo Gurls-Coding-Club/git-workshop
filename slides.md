@@ -177,6 +177,13 @@ $ touch README.md # creates a new file
 
 </v-click>
 
+<!--
+- keeps the changes over time
+- branches
+- project configurations
+- origin
+-->
+
 ---
 layout: two-cols
 ---
