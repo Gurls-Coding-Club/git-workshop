@@ -231,6 +231,7 @@ $ git status      # Check staged files
 ```bash
 $ git commit -m "descriptive message"
 $ git log         # View commit history
+$ git log --graph --oneline --all --decorate
 ```
 
 </v-click>
@@ -465,7 +466,13 @@ hideInToc: true
 
 > Open source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit.
 
-
+<!--
+- vs code
+- JS: react, supabase 
+- python: jupiter notebooks, pandas, django (web)
+- R: ggplot2 (graphics), caret (machine learning)
+- Java: spring boot, JUnit
+-->
 
 ---
 layout: two-cols
