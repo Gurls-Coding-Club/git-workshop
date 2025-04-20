@@ -23,8 +23,9 @@ layout: cover
 hideInToc: true
 ---
 
-<section class="flex items-center flex-1 h-auto justify-center">
+<section class="flex flex-col items-center flex-1 h-auto justify-center">
 <img class="h-72 w-72" src="/slides.svg"/>
+<a href="https://git-workshop-club.netlify.app">git-workshop-club.netlify.app</a>
 </section>
 
 
@@ -66,6 +67,10 @@ hideInToc: true
   <li v-click>Lost code or had a backup that was too old?</li>
   <li v-click>Wanted to prove that a particular change broke or fixed a piece of code?</li>
 </ol>
+
+<!--
+- Time Machine
+-->
 
 ---
 layoutClass: gap-16
@@ -598,8 +603,10 @@ hideInToc: true
 
 # Feedback
 
-<section class="flex items-center mt-12 flex-1 h-auto justify-center">
+<section class="flex flex-col items-center mt-12 flex-1 h-auto justify-center">
 <img class="h-72 w-72" src="/feedback.svg"/>
+
+<a href="https://www.menti.com/al2htfvnwmwb">menti.com | code: 2706 9277</a>
 
 </section>
 
