@@ -70,6 +70,9 @@ hideInToc: true
 
 <!--
 - Time Machine
+
+
+1. example of working on a project and sending copies
 -->
 
 ---
@@ -260,6 +263,7 @@ $ git log         # View commit history
 
 ---
 layout: two-cols
+title: Git vs GitHub
 ---
 
 # Git
@@ -466,7 +470,6 @@ hideInToc: true
 
 
 ---
-hideInToc: true
 layout: two-cols
 ---
 
@@ -551,6 +554,8 @@ conflicts
 make your life easier
 -->
 
+---
+hideInToc: true
 ---
 
 # Tools
