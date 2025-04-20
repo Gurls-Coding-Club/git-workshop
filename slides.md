@@ -444,8 +444,6 @@ $ git clone https://github.com/ORIGINAL-OWNER/REPO-NAME
 ```shell
 # After forking on GitHub, clone your fork
 $ git clone https://github.com/YOUR-USERNAME/REPO-NAME
-# Add original repository as upstream
-$ git remote add upstream https://github.com/ORIGINAL-OWNER/REPO-NAME
 ```
 
 <!--
