@@ -193,9 +193,18 @@ layout: two-cols
 <v-click>
 
 ## 1. Untracked
+New files that have not been there in the previous changes
 
-- Ignored files within .gitignore
-- New files that have not been there in the previous changes
+</v-click>
+
+<v-click>
+
+
+## 2. Ignored
+Files that in the .gitignore file
+
+- generated files (e.g., node_modules, .env)
+- IDE files (e.g., .idea, .vscode)
 
 </v-click>
 
@@ -203,19 +212,9 @@ layout: two-cols
 
 <v-click>
 
-## 2. Tracked
+## 3. Tracked
 
 Changes git knows about
-
-</v-click>
-
-<v-click>
-
-### Modified
-
-```bash
-$ git status  # Check which files changed
-```
 
 </v-click>
 
@@ -239,6 +238,16 @@ $ git status      # Check staged files
 $ git commit -m "descriptive message"
 $ git log         # View commit history
 $ git log --graph --oneline --all --decorate
+```
+
+</v-click>
+
+<v-click>
+
+### Modified
+
+```bash
+$ git status  # Check which files changed
 ```
 
 </v-click>

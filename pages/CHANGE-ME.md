@@ -1,4 +1,4 @@
-# Collaboration with Git
+# Interactive Demo
 
 <!--
 mention git pull
