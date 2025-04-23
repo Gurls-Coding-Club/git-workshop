@@ -473,16 +473,14 @@ $ git clone https://github.com/YOUR-USERNAME/REPO-NAME
 - when missing permissions
 -->
 
----
+<!-- 
 layout: cover
 hideInToc: true
----
 
-# OPEN SOURCE
+# OPEN SOURCE 
 
-> Open source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit.
+ Open source software is code that is designed to be publicly accessible—anyone can see, modify, and distribute the code as they see fit.
 
-<!--
 - vs code
 - JS: react, supabase 
 - python: jupiter notebooks, pandas, django (web)
