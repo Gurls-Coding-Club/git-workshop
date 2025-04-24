@@ -621,6 +621,11 @@ hideInToc: true
 - [Git and GitHub for Beginners](https://www.youtube.com/watch?v=RGOj5yH7evk) - freeCodeCamp
 - [GitHub Training & Guides](https://www.youtube.com/githubguides)
 
+<br/>
+
+## Other Resources
+- [Git: The Basics](https://playfulprogramming.com/posts/git-basics)
+
 
 ---
 hideInToc: true
